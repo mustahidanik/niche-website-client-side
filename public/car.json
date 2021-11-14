@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "FERRARI Portofino",
+        "img": "https://cdn.motor1.com/images/mgl/Ae27x/s1/ferrari-portofino-m.webp",
+        "description": "Three years after the introduction of the Portofino at the 2017 Frankfurt Motor Show, the Italian car-maker introduced the M version for it, a more powerful version for the open-top supercar. In the Italian's brand designation, M stood for “Modificata” (Modified), which meant an improvement of an existing model. Since it was a Ferrari, those modifications were about more power and better.",
+        "price": "60000000"
+    },
+    {
+        "id": 2,
+        "name": "FERRARI 812",
+        "img": "https://www.adam-themagazine.com/wp-content/uploads/2019/09/ferrari.jpg",
+        "description": "Essentially an open-top, roadster version of the 812 Superfast, the Ferrari 812 GTS hasn't had a direct predecessor for over half a century. To be more exact, save for a few special limited edition models, Ferrari last offered a convertible with a front-mounted V12 engine back in 1969, with the 365 GTS4.",
+        "price": "40000000"
+    },
+    {
+        "id": 3,
+        "name": "FERRARI GTC4Lusso T",
+        "img": "https://www.motortrend.com/uploads/sites/5/2017/11/2018-Ferrari-GTC4Lusso-T-front-three-quarter-in-motion-04.jpg",
+        "description": "Ferrari lost four cylinders from the GTC4Lusso, but it didn't lose its appeal when it built the GTC4Lusso T but gained in sport-response and agility. The design was the same as its V12 sibling, the GTC4Lusso, with a shooting-brake appearance and the same long hood as a front-engine Ferrari. It had an option for 20 light-alloy wheels.",
+        "price": "35000000"
+    },
+    {
+        "id": 4,
+        "name": "FERRARI F60 America",
+        "img": "https://www.thedrive.com/content/2021/08/2016-Ferrari-F60-America-_71.jpg?quality=85",
+        "description": "Ferrari decided to celebrate its 60th Anniversary in America with a special model: the 60 America. An open-to roadster built especially for ten customers. The first Ferrari ever sold in the U.S. was the Tipo 166 Spyder Corsa. It was a race-car with two seats and no roof. The difference is that the F60 America was not a race-car, but was a roadster well.",
+        "price": "50000000"
+    },
+    {
+        "id": 5,
+        "name": "FERRARI 488 Pista",
+        "img": "https://ca-times.brightspotcdn.com/dims4/default/c0122f9/2147483647/strip/true/crop/5000x2813+0+263/resize/1200x675!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F6c%2Fce%2Feb7ce0174a99bcf7e4fd4cd91a06%2Ffi-hy-ferrari-488-pista-10.jpg",
+        "description": "Based on the Ferrari 488 GTB, the 2018 Ferrari Pista offered 50 more horsepower than its sibling and it was built for track action, as its name suggested (Pista = track). The true successor of the Ferrari 360 Challenge Stradale, 430 Scuderia, and 458 Speciale was designed for those who are regularly taking their cars to the race-track.",
+        "price": "30000000"
+    },
+    {
+        "id": 6,
+        "name": "FERRARI Roma",
+        "img": "https://carsalesbase.com/wp-content/uploads/2021/02/Ferrari_Roma-auto-sales-statistics-Europe.jpg",
+        "description": "The smallest front-engine Ferrari is also the least expensive four-wheeled product from Maranello, from some points of view being essentially a non-direct descendant of the Ferrari Dino or at least part of the same lineage. Unlike the Dino, the Roma uses a front-midship design for its engine, likely to be as close as possible to Enzo's ethos of how a perfect sports car should be like.",
+        "price": "25000000"
+    },
+    {
+        "id": 7,
+        "name": "FERRARI Monza",
+        "img": "https://cdn.shopify.com/s/files/1/2784/4966/products/M6027-SP2-AMG-12_-_Ferrari_SP2_Amalgam_Version_1.8_Scale_-_Front_3.4_edit_2000x850_crop_center.jpg?v=1613998027",
+        "description": "The 2018 Ferrari Monza SP1 was designed for the driver who doesn't want to take any passenger along the road. The one-seater vehicle was built mostly for collectors. The car was inspired by the 1955 Ferrari 750 with one seat and track-days in mind. But the SP1 was legal to drive on the public roads.",
+        "price": "20000000"
+    },
+    {
+        "id": 8,
+        "name": "FERRARI F8",
+        "img": "https://www.ferrarisiliconvalley.com/static/dealer-20428/Ferrari_F8_Tributo_2021_for_sale.jpg",
+        "description": "Designed at the same time and by the same team that worked on the F8 Tributo Berlinetta, the Ferrari F8 Spider is the latest and most powerful open-top V8 that was born in Maranello since 1977, when the 308 GTS started this lineage. Not as hardcore as the 488 Pista Spider but a lot sportier than the regular 488 Spider it replaced, the F8 Spider offers a whole new level of open-top performance.",
+        "price": "55000000"
+    },
+    {
+        "id": 9,
+        "name": "FERRARI GTC4Lusso",
+        "img": "https://data1.ibtimes.co.in/en/full/657025/ferrari-gtc4lusso.jpg?h=450&l=57&t=62",
+        "description": "Ferrari doesn't mess too much about mid-life cycle facelifts. It changes the model that much that it can be renamed. For instance, how many know that the 430 was actually a facelifted 360? So, in 2014 the FF model was replaced by the GTC4Lusso. The only body part that was kept from the FF was the windshield. Everything else was changed.",
+        "price": "45000000"
+    },
+    {
+        "id": 10,
+        "name": "FERRARI SF90",
+        "img": "https://d2eohwa6gpdg50.cloudfront.net/wp-content/uploads/sites/8/2021/06/23174954/016_-1024x681.jpg",
+        "description": "Ferrari unveiled the SF90 Spider in November 2020 in an online event so all of its fans could see how the future roadster supercar looks like for the Italian manufacturer. Ferrari launched its first PHEV (plug-in hybrid electric vehicle) in 2019. In the following year, the carmaker introduced the open-top version for the supercar.",
+        "price": "65000000"
+    }
+]
