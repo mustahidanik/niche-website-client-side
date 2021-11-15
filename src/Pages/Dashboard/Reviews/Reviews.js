@@ -1,15 +1,25 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import useAuth from '../../../hooks/useAuth';
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Rating from '@mui/material/Rating';
+import Typography from '@mui/material/Typography';
+
+
+
 
 
 const Reviews = () => {
     const [review, setReview] = useState("")
+    const [value, setValue] = React.useState(2);
+
+
     const { user } = useAuth()
     const handleOnBlur = e => {
         setReview(e.target.value)
     }
     const handleSubmit = (e) => {
-        const newReview = { name: user.displayName, email: user.email, review }
+        const newReview = { name: user.displayName, email: user.email, review, value }
         console.log(newReview);
         fetch('https://morning-dusk-61811.herokuapp.com/review', {
             method: "POST",
@@ -32,6 +42,21 @@ const Reviews = () => {
                     name="review"
                     onBlur={handleOnBlur} />
                 <br />
+                <Box
+                    sx={{
+                        '& > legend': { mt: 2 },
+                    }}
+                >
+                    <Typography component="legend">put your rating</Typography>
+                    <Rating
+                        name="simple-controlled"
+                        value={value}
+                        onChange={(event, newValue) => {
+                            setValue(newValue);
+                        }}
+                    />
+
+                </Box>
                 <input type="submit" />
             </form>
         </div>
