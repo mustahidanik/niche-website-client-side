@@ -70,13 +70,21 @@ const useFirebase = () => {
         });
         return () => unsubscribed;
     }, [auth])
+
     useEffect(() => {
-        fetch(`http://localhost:5000/users/${user.email}`)
-            .then(res => res.json())
-            .then(data => {
-                console.log('admin', data);
-                setAdmin(data.admin)
-            })
+        let emailIs = user.email;
+        console.log("email is", emailIs);
+        if (emailIs) {
+            console.log("if if if email is", emailIs);
+
+            fetch(`https://morning-dusk-61811.herokuapp.com/users/${emailIs}`)
+                .then(res => res.json())
+                .then(data => {
+                    console.log("ADMIN IS", data);
+                    setAdmin(data.admin)
+                })
+        }
+
     }, [user.email])
 
     const logout = () => {
@@ -92,7 +100,7 @@ const useFirebase = () => {
     // save user in database
     const saveUsers = (email, method, history, Password = "") => {
         const user = { email, Password }
-        fetch("http://localhost:5000/users", {
+        fetch("https://morning-dusk-61811.herokuapp.com/users", {
             method: method,
             headers: {
                 "content-type": "application/json"

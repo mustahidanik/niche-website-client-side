@@ -22,7 +22,7 @@ const BuyNow = () => {
     }
 
     useEffect(() => {
-        fetch(`http://localhost:5000/singleCar?id=${getId.id}`)
+        fetch(`https://morning-dusk-61811.herokuapp.com/singleCar?id=${getId.id}`)
             .then(res => res.json())
             .then(data => {
                 setSingleCar(data)
@@ -39,7 +39,7 @@ const BuyNow = () => {
             date: date.toLocaleDateString()
         }
         console.log("details", orderDetails);
-        fetch("http://localhost:5000/order", {
+        fetch("https://morning-dusk-61811.herokuapp.com/order", {
             method: "POST",
             headers: {
                 "content-type": "application/json"

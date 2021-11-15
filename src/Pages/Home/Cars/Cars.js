@@ -6,7 +6,7 @@ const Cars = () => {
     const [cars, setcars] = useState([])
     const limitIs = 6
     useEffect(() => {
-        fetch(`http://localhost:5000/cars?limit=6`)
+        fetch(`https://morning-dusk-61811.herokuapp.com/cars?limit=6`)
             .then(res => res.json())
             .then(data => setcars(data));
     }, [])

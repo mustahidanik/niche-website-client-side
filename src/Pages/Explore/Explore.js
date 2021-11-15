@@ -4,7 +4,7 @@ import Explores from '../Explores/Explores';
 const Explore = () => {
     const [explore, setexplore] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5000/cars")
+        fetch("https://morning-dusk-61811.herokuapp.com/cars")
             .then(res => res.json())
             .then(data => setexplore(data));
     }, [])

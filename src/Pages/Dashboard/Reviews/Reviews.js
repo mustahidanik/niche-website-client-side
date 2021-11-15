@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import useAuth from '../../../hooks/useAuth';
 
+
 const Reviews = () => {
     const [review, setReview] = useState("")
     const { user } = useAuth()
@@ -10,7 +11,7 @@ const Reviews = () => {
     const handleSubmit = (e) => {
         const newReview = { name: user.displayName, email: user.email, review }
         console.log(newReview);
-        fetch('http://localhost:5000/review', {
+        fetch('https://morning-dusk-61811.herokuapp.com/review', {
             method: "POST",
             headers: {
                 "content-type": "application/json"
