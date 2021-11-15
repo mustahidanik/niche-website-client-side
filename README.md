@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Car-Rentals
 
 This project was bootstrapped with [Visit Our Site](https://car-rental-20c9b.web.app/).
 
